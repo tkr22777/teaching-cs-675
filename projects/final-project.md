@@ -35,7 +35,7 @@ Work through the steps in order.
 Goal: build a complete Spark analytics solution and get it working locally, using the course repo's dockerized Spark environment ([`code-starter/`](../code-starter/README.md)) on smaller slices of your data so you can iterate quickly.
 
 - Preprocess with a rigorous pipeline: imputation, outlier treatment, normalization, encoding, and binning, with before-and-after justification.
-- Write analytical queries that join across your data sources.
+- Write several example queries that join across your data sources.
 - Evaluate and discuss your results.
 
 ### Step 01 - The Spark solution, deployed in the cloud
@@ -59,20 +59,19 @@ Goal: strengthen the project with extra big-data capabilities for bonus credit.
 
 ## Score distribution
 
-Each optional extension is worth 10 points. This distribution is provisional and may be adjusted; the required components currently total more than 100, which we will discuss.
+Required work totals 100 points. Each optional extension is worth 10 points. This distribution is provisional and may be adjusted.
 
 **Required**
 
 | Component | Step | Points |
 |-----------|------|--------|
 | Preprocessing pipeline | 00 | 10 |
-| Cross-source join analytics | 00 | 20 |
+| Cross-source join analytics (multiple example queries) | 00 | 20 |
 | Cloud infrastructure | 01 | 20 |
-| Big data at real scale (at least 100 million rows) | 01 | 16 |
+| Big data at real scale (at least 100 million rows) | 01 | 20 |
 | Code quality, repository organization, README and run instructions | 01 | 10 |
-| Plan review | 01 | 10 |
 | Results evaluation and discussion, and final presentation with Q&A | 00-01 | 20 |
-| **Total** |  | **106** |
+| **Total** |  | **100** |
 
 **Optional extensions - 10 points each (Step 02)**
 

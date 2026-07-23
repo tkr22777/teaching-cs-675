@@ -36,7 +36,6 @@ Goal: build a complete Spark analytics solution and get it working locally, usin
 
 - Preprocess with a rigorous pipeline: imputation, outlier treatment, normalization, encoding, and binning, with before-and-after justification.
 - Write analytical queries that join across your data sources.
-- Tune query performance: restructuring or denormalization, partitioning, and other big-data techniques.
 - Evaluate and discuss your results.
 
 ### Step 01 - The Spark solution, deployed in the cloud
@@ -44,7 +43,7 @@ Goal: build a complete Spark analytics solution and get it working locally, usin
 Goal: run the same solution on cloud infrastructure at full scale, then package and present it.
 
 - Deploy the same solution on the cloud (storage and a query or compute engine), reproducible from your repo.
-- Run it at full scale (at least 10 million rows) on at least two joinable datasets.
+- Run it at full scale (at least 100 million rows) on at least two joinable datasets.
 - Package as a public GitHub repo with a README.
 - Present your plan and results.
 
@@ -56,6 +55,7 @@ Goal: strengthen the project with extra big-data capabilities for bonus credit.
 - Terabyte-scale data.
 - Real-time data ingestion.
 - A user interface or dashboard.
+- Query-performance tuning (restructuring or denormalization, partitioning, and other big-data techniques).
 
 ## Score distribution
 
@@ -67,15 +67,12 @@ Each optional extension is worth 10 points. This distribution is provisional and
 |-----------|------|--------|
 | Preprocessing pipeline | 00 | 10 |
 | Cross-source join analytics | 00 | 20 |
-| Query-performance tuning | 00 | 8 |
-| Results evaluation and discussion | 00 | 10 |
-| Cloud infrastructure | 01 | 16 |
-| Big data at real scale (at least 10 million rows) | 01 | 16 |
-| Code quality and repository organization | 01 | 10 |
-| README and run instructions | 01 | 4 |
+| Cloud infrastructure | 01 | 20 |
+| Big data at real scale (at least 100 million rows) | 01 | 16 |
+| Code quality, repository organization, README and run instructions | 01 | 10 |
 | Plan review | 01 | 10 |
-| Final presentation and Q&A | 01 | 10 |
-| **Total** |  | **114** |
+| Results evaluation and discussion, and final presentation with Q&A | 00-01 | 20 |
+| **Total** |  | **106** |
 
 **Optional extensions - 10 points each (Step 02)**
 
@@ -85,6 +82,7 @@ Each optional extension is worth 10 points. This distribution is provisional and
 | Terabyte-scale data | 10 |
 | Real-time ingestion | 10 |
 | User interface or dashboard | 10 |
+| Query-performance tuning | 10 |
 
 ## Datasets
 

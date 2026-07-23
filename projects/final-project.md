@@ -44,7 +44,7 @@ Goal: build a complete Spark analytics solution and get it working locally, usin
 Goal: run the same solution on cloud infrastructure at full scale, then package and present it.
 
 - Deploy the same solution on the cloud (storage and a query or compute engine), reproducible from your repo.
-- Run it at full scale (hundreds of millions of rows) on at least two joinable datasets.
+- Run it at full scale (at least 10 million rows) on at least two joinable datasets.
 - Package as a public GitHub repo with a README.
 - Present your plan and results.
 
@@ -59,9 +59,9 @@ Goal: strengthen the project with extra big-data capabilities for bonus credit.
 
 ## Score distribution
 
-Graded out of 100. Each optional extension is worth 10 points; the total is capped at 110. This distribution is provisional and may be adjusted.
+Each optional extension is worth 10 points. This distribution is provisional and may be adjusted; the required components currently total more than 100, which we will discuss.
 
-**Required - 100 points**
+**Required**
 
 | Component | Step | Points |
 |-----------|------|--------|
@@ -70,14 +70,14 @@ Graded out of 100. Each optional extension is worth 10 points; the total is capp
 | Query-performance tuning | 00 | 8 |
 | Results evaluation and discussion | 00 | 10 |
 | Cloud infrastructure | 01 | 16 |
-| Big data at real scale | 01 | 16 |
-| Code quality and repository organization | 01 | 8 |
+| Big data at real scale (at least 10 million rows) | 01 | 16 |
+| Code quality and repository organization | 01 | 10 |
 | README and run instructions | 01 | 4 |
-| Plan review | 01 | 4 |
-| Final presentation and Q&A | 01 | 4 |
-| **Total** |  | **100** |
+| Plan review | 01 | 10 |
+| Final presentation and Q&A | 01 | 10 |
+| **Total** |  | **114** |
 
-**Optional extensions - 10 points each; total capped at 110 (Step 02)**
+**Optional extensions - 10 points each (Step 02)**
 
 | Extension | Points |
 |-----------|--------|
